@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Display Page</title>
+    <style>
+        body > table{
+            width: 100%;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table.list{
+            width:100%;
+            text-align: center;
+        }
+        table.list td{
+            text-align: center;
+        }
+        td, th {
+            border: 1px dotted #f00c0c;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even),table.list thead>tr {
+            background-color:burlywood;
+        }
+    </style>
+</head>
+<body>
+    <center><h2>User Details Display Page</h2></center>
+    <hr>
+    <table class="list" id="table" style="background-color: #C2976D;">
+        <!--Table Head-->
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <!--Table Body-->
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <script src="C:\Users\Insiya Gunderwala\Documents\User Management\user_details.js"></script>
+</body>
+</html>

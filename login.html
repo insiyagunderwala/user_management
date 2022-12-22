@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        form {
+            border: 3px solid #f1f1f1;
+            width: 60%;
+        }
+        
+        input[type=email], input[type=password] {
+          width: 60%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+        
+        button {
+          background-color: #04AA6D;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 10%;
+          align-content: center;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        
+        .container {
+          padding: 16px;
+        }
+        
+        span.psw {
+          float: right;
+          padding-top: 16px;
+          width: 300px;
+        }
+        
+        </style>
+        </head>
+        <body>
+        
+        <h2>Login Form</h2>
+        
+        <form method="post">
+          
+          <div class="container">
+            <label for="email"><b>E-mail</b></label><br>
+            <input type="email" id="mail" placeholder="Enter e-mail" name="mail" required><br>
+        
+            <label for="psw"><b>Password</b></label><br>
+            <input type="password" id="psw" placeholder="Enter Password" name="psw" required><br>
+                
+            <button type="submit" onclick="compare()">Login</button>
+          </div>
+        </form>
+    <script src="C:\Users\Insiya Gunderwala\Documents\User Management\login.js"></script>    
+</body>
+</html>
