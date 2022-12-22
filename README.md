@@ -1,0 +1,1 @@
+This is a user database management site. It shows user data on successful login, and shows error alert message otherwise. It allows user to add data successfully through sign up page and simultaneously displays the data on user details display page.
